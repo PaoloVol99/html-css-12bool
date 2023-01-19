@@ -1,0 +1,34 @@
+:root {
+    --green-0: #007F0D;
+    --green-1: #00C114;
+    --green-2: #56E566;
+    --green-3: #B5FFBD;
+}
+
+[class^="col-1"] {
+    aspect-ratio: 1;
+}
+
+.row {
+    margin-top: 50px;
+}
+
+.green-0 {
+    background-color: var(--green-0);
+}
+
+.green-1 {
+    background-color: var(--green-1);
+}
+
+.green-2 {
+    background-color: var(--green-2);
+}
+
+.green-3 {
+    background-color: var(--green-3);
+}
+
+.black {
+    background-color: black;
+}

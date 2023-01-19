@@ -1,0 +1,20 @@
+[class^="col-"] {
+    background-color: royalblue;
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.col-6 [class^="col"] {
+    border-color: royalblue;
+    background-color: green;
+}
+
+body > .row {
+    margin: 10px 0;
+}
+
+.row.empty [class^="col"] {
+    padding: 18px;
+}
